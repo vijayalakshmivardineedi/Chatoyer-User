@@ -1,0 +1,188 @@
+/* Navbar Styles */
+
+
+
+.chatoyer {
+  background: linear-gradient(to right, #ff3366, #33ccff);
+  -webkit-background-clip: text;
+  color: transparent;
+  display: inline-block; /* Ensures the gradient applies only to the text content */
+  text-decoration: none; /* To remove the default link underline */  
+  font-family: 'Domine', serif;
+  font-size: 40px;
+  font-variant-caps: normal;
+  font-variant-east-asian: normal;
+  font-variant-ligatures: normal;
+  font-variant-numeric: normal;
+  font-weight:900;
+  margin-left: -25px;
+  margin-bottom: 5px;
+}
+
+
+.custom-navbar {
+  background-color: #4f3267;
+  padding: 10px 0;
+  height: 40px;
+  display: flex;
+  font-weight: 700;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Domine', serif;
+}
+
+.headercat {  
+  font-family: 'Domine', serif;
+  font-size: 18px;
+  font-style: normal;
+  font-variant-caps: normal;
+  font-variant-east-asian: normal;
+  font-variant-ligatures: normal;
+  font-variant-numeric: normal;
+  font-weight: 550;
+  margin-top: 14px;
+  color: #4f3267;
+  transition: transform 0.3s ease; 
+}
+
+.headercat:hover {
+  color: #e56eeb;
+}
+ 
+.nav-link:hover .headercat {
+  transform: scale(1.1);  
+}
+
+.navbar-nav .nav-link {
+  font-size: 16px;
+  color:  #e56eeb;
+  transition: color 0.3s ease-in-out;
+}
+
+.navbar {
+  font-size: large;
+  font-family: 'Domine', serif;
+  width: 100%;
+  height:70px;
+  color: #4f3267;
+}
+
+.logo-container {
+  width: 90px;
+  height: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 50%;
+  margin-top: 15px;
+  margin-left: 20px;
+  margin-bottom: 51px;
+}
+
+.logo-container img {
+  max-height: auto;
+  max-width: 110px;
+}
+
+.search-container{
+  margin-bottom: 10px;
+}
+
+.search-bar {
+  border: 2px solid #e56eeb;
+  height: 40px;
+  border-radius: 10px; 
+  margin-top: 10px;
+}
+
+.search-container .search-button {
+  background: linear-gradient(to right, #e56eeb, #8863fb); /* Gradient colors */
+  color: #fff; 
+  border:  #fff;
+  height: 40px; 
+}
+.react-icon-header {
+  font-size: 24px;
+  color: #4f3267; 
+}
+
+.react-icon-header:hover {
+  color: #8863fb;
+  ;
+}
+
+.suggestions-dropdown {
+  position: absolute;
+  width: 13%;
+  margin-left: 79%;
+  top: 100%;
+  left: 0;
+  z-index: 1000;
+  font-size: 15px;
+  max-height: 200px; 
+  overflow-y: auto;
+}
+
+.announcement {
+  margin-top: 17px;
+  color: #fff; 
+}
+ 
+
+.custom-dropdown {
+  max-width: 350px; 
+  width: auto !important;
+  
+}
+
+.highlight {
+  background-color: gainsboro;
+}
+
+.suggestions-dropdown .text-dark {
+  white-space: nowrap; 
+  overflow: hidden; 
+  text-overflow: ellipsis;
+}
+.header-buttons {
+  border: none;  
+  background: none;  
+  padding: 0;  
+  cursor: pointer;  
+}
+
+.headercat.active {
+  font-weight: bold;
+  color: #e56eeb; 
+}
+
+.header-LS-button {
+  margin-top: 20px;
+  margin-left: 65px;
+  border: none;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  background: linear-gradient(to right, #DE57E5 0%, #8863FB 100%);
+  color: white;
+  width: 120px;
+  padding: 8px;
+  font-size: 22px;
+  transition: all 0.3s ease;
+}
+
+.header-LS-button:hover {
+  background: #ebebfc;
+  color: #4f3267;
+  border: 2px solid black;
+}
+
+
+.custom-dropdown-item {
+  color: black; 
+}
+
+.custom-dropdown-item:hover {
+  background-color: #ebebfc;
+  color: #4f3267; 
+}

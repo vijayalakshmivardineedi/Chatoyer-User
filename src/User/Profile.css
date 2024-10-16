@@ -1,0 +1,148 @@
+.Form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 18px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.profile-image-container {
+  position: relative;
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-bottom: 20px;
+  box-shadow: black;
+  border:'1px solid lightgray' 
+}
+
+.profile-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.choose-file-button {
+  padding: 8px 16px;
+  background: linear-gradient(to right,#DE57E5 0%,#8863FB 100%);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.choose-file-button:hover {
+  background: linear-gradient(to right,#DE57E5 0%,#8863FB 100%);
+}
+
+.choose-file-button input[type="file"] {
+  display: none;
+}
+
+.form-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.form-column {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1000;
+  width: 100%;
+  font-size: 18px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.popup-content-big {
+  background-color: #ebebff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  text-align: center;
+  font-weight: 500;
+  color: #4f3267;
+}
+
+.close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+}
+
+.wishlist-button {
+  display: inline-block;
+  height: 50px;
+  text-align: center;
+  font-size: 18px;
+}
+
+.update-button {
+  padding: 8px ;
+  background: linear-gradient(to right,#DE57E5 0%,#8863FB 100%);
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.update-button:hover {
+  background: linear-gradient(to right,#DE57E5 0%,#8863FB 100%);
+}
+
+.profile-options {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+}
+
+.dots {
+  font-size: 24px;
+}
+
+.remove-address-button {
+  background: linear-gradient(to right,#DE57E5 0%,#8863FB 100%);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+.remove-address-button:hover {
+  background-color: #da190b;
+}
+
+.update-profile-button {
+  width: 40%;
+  background: linear-gradient(to right,#DE57E5 0%,#8863FB 100%);
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  cursor: pointer;
+  align-self: center;
+}
+
+.update-profile-button:hover {
+  background: linear-gradient(to right,#DE57E5 0%,#8863FB 100%);
+}

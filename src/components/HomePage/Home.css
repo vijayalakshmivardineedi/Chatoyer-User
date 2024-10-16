@@ -1,0 +1,329 @@
+.homepage {
+  background-color: #ffffff;
+}
+.brand span{
+    font-size: small;
+}
+
+  .product h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .box:hover {
+    transform: translateY(-10px);
+  }
+  
+  .img_box img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .icon {
+    display: flex;
+    margin-top: 10px;
+    margin-left: 10px;
+    
+  }
+  
+  .icon li {
+    list-style: none;
+    cursor: pointer;
+    font-size: 30px;
+   
+    color: #333;
+    transition: color 0.2s;
+  }
+  
+  
+  
+  .product
+{
+    padding: 30px 20px;
+    width: 100%;
+}
+.product h2
+{
+    font-size: 32px;
+    color: #010f1c;
+    margin-bottom: 20px;
+}
+.product .container
+{
+    display: flex;
+    justify-content:flex-start;
+    flex-wrap: wrap;
+
+}
+.product .container .box
+{
+    padding: 10px 20px;
+    overflow: hidden;
+    width: 280px;
+    height: 380px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    transition: 0.5s;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.product .container .box:hover
+{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.product .container .box .img_box
+{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #e2e0e0;
+}
+.product .container .box .img_box img
+{
+    width: 300px;
+    height: 250px;
+    margin-right: 50px;
+}
+.product .container .box .img_box .icon
+{
+    z-index: 1;
+    position: relative;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+    transition: 0.5s;
+}
+.product .container .box .img_box:hover .icon
+{
+    transform: translateX(-100px);
+}
+.product .container .box .img_box .icon li
+{
+    list-style: none;
+    padding: 5px 10px;
+    color: #010f1c;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background: #fff;
+    transition: 0.5s;
+    font-size: 18px;
+}
+.product .container .box .img_box .icon li:hover
+{
+    background: #0989ff;
+    color: #fff;
+}
+.product .container .box .detail
+{
+    margin-top: 10px;
+}
+.product .container .box .detail p
+{
+    color: #9a9a9a;
+    font-size: 14px;
+}
+.product .container .box .detail h3
+{
+  font-size: 18px;
+  margin-top: 5px;
+  color: #4f3267;
+  font-family: "Domine", serif;
+  transition: 0.5s;
+}
+.product .container .box:hover .detail h3
+{
+    color: #de57e5;
+}
+.product .container .box .detail h4
+{
+  margin-top: 5px;
+  font-size: 16px;
+  color: #000000;
+  font-family: "Domine", serif;
+  letter-spacing: 1px;
+}
+
+.category{
+  padding: 10px 20px;
+    margin-bottom: 20px;
+    
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.banner{
+  margin-top: 26px;
+}
+.product-table{
+  width: 75%;
+  margin: 0 auto; 
+  justify-content: space-between;
+}
+
+.home-headings{
+  font-Family: 'Domine', serif;
+  font-style: italic;
+}
+
+.home-headings h1{
+  font-size: 50px;
+}
+.home-headings h4{
+  font-size: 25px;
+}
+hr{
+  height:3px;
+  width:200px;
+  background-color: #000000;
+}
+.promises-text{
+  font-family: 'Taviraj', serif;
+  font-weight: 600;
+}
+
+.carousel-item {
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+
+.carousel-item.active {
+  animation: blink 1s ease-in-out forwards;
+}
+
+
+.carousel-item {
+  opacity: 0;
+  transform: perspective(600px) rotateY(90deg);
+  transition: all 0.8s ease-in-out;
+  backface-visibility: hidden;
+}
+
+.carousel-item.active {
+  opacity: 1;
+  transform: perspective(600px) rotateY(0);
+}
+
+
+.carousel-item {
+  opacity: 0;
+  transition: all 0.8s ease-in-out;
+  backface-visibility: hidden;
+}
+
+/* Fade-in effect */
+.carousel-item.fade-in.active {
+  opacity: 1;
+  animation: fadeIn 1s ease-in-out forwards;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Slide-in effect */
+.carousel-item.slide-in.active {
+  opacity: 1;
+  transform: translateX(-100%);
+  animation: slideIn 0.8s ease-in-out forwards;
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+/* Flip-in effect */
+.carousel-item.flip-in.active {
+  opacity: 1;
+  transform: perspective(600px) rotateY(90deg);
+  animation: flipIn 0.8s ease-in-out forwards;
+}
+
+@keyframes flipIn {
+  from {
+    transform: perspective(600px) rotateY(90deg);
+  }
+  to {
+    transform: perspective(600px) rotateY(0);
+  }
+}
+
+/* Rotate-in effect */
+.carousel-item.rotate-in.active {
+  opacity: 1;
+  transform: rotate(-90deg);
+  animation: rotateIn 0.8s ease-in-out forwards;
+}
+
+@keyframes rotateIn {
+  from {
+    transform: rotate(-90deg);
+  }
+  to {
+    transform: rotate(0);
+  }
+}
+
+/* Zoom-in effect */
+.carousel-item.zoom-in.active {
+  opacity: 1;
+  transform: scale(0.5);
+  animation: zoomIn 0.8s ease-in-out forwards;
+}
+
+@keyframes zoomIn {
+  from {
+    transform: scale(0.5);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+
+
+
+
+/* .carousel-item {
+  opacity: 0;
+  transform: scale(0.9) rotate(-10deg);
+  transition: all 0.8s ease-in-out;
+}
+
+.carousel-item.active {
+  opacity: 1;
+  transform: scale(1) rotate(0deg);
+} */
+
+/* .carousel-item {
+  opacity: 0;
+  transform: scale(1.1);
+  filter: blur(5px);
+  transition: all 0.8s ease-in-out;
+}
+
+.carousel-item.active {
+  opacity: 1;
+  transform: scale(1);
+  filter: blur(0px);
+} */
+
+

@@ -1,0 +1,58 @@
+.privacy_policy_container {
+  margin-left: 60px;
+  margin-right: 60px;
+}
+
+.privacy_header {
+  text-align: center;
+  padding: 20px;
+ 
+}
+
+.privacy_title {
+  color: #4f3267;
+  font-family: 'Domine', serif;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.privacy_content {
+  font-family: 'Domine', serif;
+  font-size: 20px;
+  padding: 10px;
+  text-align: justify;
+}
+
+.privacy_subtitle {
+  color: #0d2427;
+  font-family: 'Domine', serif;
+  font-size: 25px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.bold_text {
+  font-family: 'Domine', serif;
+  font-size: 20px;
+}
+
+.privacy_content p, .privacy_content ul {
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+.privacy_content li {
+  margin-bottom: 10px;
+  line-height: 1.5;
+}
+
+.privacy_contact {
+  font-family: 'Domine', serif;
+  font-size: 18px;
+  text-align: justify;
+  margin-top: 20px;
+}
+
+.privacy_contact p {
+  font-size: 20px;
+}

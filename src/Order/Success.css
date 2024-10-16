@@ -1,0 +1,50 @@
+/* Success.css */
+.success-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  font-family: 'Domine', serif; 
+}
+
+.check-icon {
+  font-size: 280px;
+  color: green;
+}
+
+.success-heading {
+  margin-top: 0px;
+  color: green;
+  font-size: 30px;
+  font-weight: 600;
+  font-family: 'Domine', serif;
+}
+
+.thank-you-text {
+  margin-top: 50px;
+  font-size: 20px;
+  font-family: 'Domine', serif;
+}
+
+.update-text {
+  margin-top: 20px;
+  font-size: 18px;
+  font-family: 'Domine', serif;
+}
+
+.back-to-home-link {
+  margin-top: 20px;
+  font-weight: 600;
+  font-size: 20px;
+  font-family: 'Domine', serif;
+  color: #8863FB; 
+}
+
+.back-to-home-link a {
+  color: #8863FB; 
+  text-decoration: none;  
+}
+
+.back-to-home-link a:hover {
+  text-decoration: underline;  
+}

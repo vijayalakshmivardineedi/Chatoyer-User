@@ -1,0 +1,164 @@
+.product {
+  padding: 30px 20px;
+  width: 100%;
+}
+
+.product h2 {
+  font-size: 32px;
+  color: #4f3267;
+  margin-bottom: 20px;
+}
+
+.bangles {
+  width: -800px;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.product .container .box {
+  position: relative;
+  padding: 10px 20px;
+  overflow: hidden;
+  width: 280px;
+  height: 380px;
+  margin-bottom: 50px;
+  margin-left: 20px;
+  margin-right: 20px;
+  transition: 0.5s;
+  border-radius: 5px;
+}
+
+.product .container .box:hover {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  transform: translateY(-10px);
+}
+
+.product .container .box .img_box {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #e2e0e0;
+}
+
+.img_box img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+.icon {
+  position: absolute;
+  top: 0%;
+  left: 75%; 
+  opacity: 0; 
+}
+
+.box .icon {
+  opacity: 1; 
+  width: 20px;
+}
+
+.icon li {
+  list-style: none;
+  padding: 5px;
+  color: #010f1c;
+  cursor: pointer;
+  margin-bottom: 330px;
+  border-radius: 50%;
+}
+
+.icon-item {
+  display: inline-block;
+}
+.heart-icon {
+  font-size: 20px;
+  color: #333;
+}
+.heart-icons {
+  font-size: 20px;
+  color: #333;
+}
+
+.product .container .box .img_box .icon li {
+  color: #010f1c;
+}
+
+.product .container .box:hover .img_box .icon {
+  transform: translateX(0);
+}
+
+.detail p {
+  font-size: 14px;
+  color: #888;
+}
+
+.detail h1 {
+  font-size: 18px;
+  margin-top: 5px;
+  color: #4f3267;
+  transition: 0.5s;
+  font-family: 'Domine', serif;
+  font-weight: 700;
+}
+
+.box:hover .detail h1 {
+  color: #4f3267;
+}
+
+.detail h4 {
+  margin-top: 5px;
+  font-size: 16px;
+  font-family: 'Domine', serif;
+  color: #0d2427;
+  letter-spacing: 1px;
+}
+
+/* Category Styling */
+.category {
+  padding: 10px 20px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+/* Sort Section Styling */
+.sort-container {
+  width: 100%;
+  color: #4f3267;
+  background-color: #f6f3f9;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.breadcrumb {
+  font-size: 15px;
+}
+
+.breadcrumb a {
+  text-decoration: none;
+  color: #4f3267;
+}
+
+.sortby {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+  margin: 20px;
+}
+
+.sort {
+  margin-right: 10px;
+}
+
+.sortinput {
+  border: 1px solid #ffffff;
+  color: #4f3267;
+  font-weight: 600;
+  border-radius: 10px;
+}

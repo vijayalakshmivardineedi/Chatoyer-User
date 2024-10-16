@@ -1,0 +1,57 @@
+.disclaimer_header {
+  margin-left: 60px;
+  margin-right: 60px;
+}
+
+.Return {
+  color: #0d2427;
+  font-family: 'Domine', serif;
+  padding: 20px;
+}
+
+.Return h1 {
+  font-size: 30px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.Return-content {
+  font-family: 'Domine', serif;
+  padding: 10px;
+  font-size: 20px;
+  text-align: justify;
+}
+
+.Return-content1 {
+  font-family: 'Domine', serif;
+  font-size: 18px;
+  text-align: justify;
+}
+
+.Return-content h2 {
+  font-family: 'Domine', serif;
+  color: #0d2427;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.Return-content p {
+  margin-bottom: 20px;
+  line-height: 1.7;
+}
+
+.Return-content li {
+  margin-bottom: 10px;
+  line-height: 1.5;
+}
+
+.boldcontent {
+  font-family: 'Domine', serif;
+  color: #0d2427;
+  font-weight: 600;
+}
+
+.chatoyer-name {
+  font-family: 'Domine', serif;
+  color: #de57e5;
+}

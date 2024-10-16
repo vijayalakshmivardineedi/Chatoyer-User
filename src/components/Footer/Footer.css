@@ -1,0 +1,82 @@
+.footer {
+  background-color: #4f3267;
+  color: #ffffff;
+  font-size: 1.35rem;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+ 
+.footer-title {
+  font-family: 'Domine', serif;
+  font-size: 25px;
+  font-weight: 350;
+  margin-bottom: 0.5rem;
+}
+ 
+.footer a {
+  color: rgb(251, 253, 255);
+  text-decoration: none;
+}
+ 
+.footer-contact-address {
+  font-size: 0.875rem;
+  margin-top: 0.5rem;
+}
+ 
+.socials {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+ 
+.pay img {
+  max-width: 200px;
+  height: auto;
+  margin-top: 1rem;
+}
+.footer1 h3{
+  font-family: 'Domine', serif;
+  font-size: 18px;
+  color: white;
+} 
+.footer hr {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  width: 100%;
+}
+.footer p.text-center {
+  font-size: 0.5rem;
+  margin-bottom: 0;
+}
+.footer-content{
+  font-family: 'Domine', serif;
+  font-size: 20px;
+}
+.foote {
+  font-size: 16px;
+}
+.footer-email{
+  font-size: 19px;
+  
+} 
+@media (max-width: 768px) {
+  .footer {
+    text-align: center;
+  }
+
+  .footer .row {
+    justify-content: center;
+  }
+
+  .footer .col-md-3,
+  .footer .col-md-4 {
+    margin-bottom: 2rem;
+  }
+
+  .footer .col-md-3 {
+    text-align: center;
+  }
+ .foote {
+  font-size: 100px;
+ }
+}
